@@ -68,6 +68,27 @@ table {
     width: 40vw;
 }
 
+.logo {
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: relative;
+	top: 80vh;
+	gap: 1vw;
+	padding: 15px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-img {
+	height: 8vh;
+}
+
+h1 {
+	color: white;
+	font-size: 36px;
+}
+
 .main {
     display: flex;
 }
@@ -98,11 +119,12 @@ table {
     height: 33vh;
 	display: flex;;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: top;
+	align-items: left;
+	margin-left: 3vw;
 }
 
-button{
+button {
     background-color: rgba(0, 0, 0, 0);
     color: var(--color);
     font-weight: 700;
@@ -112,3 +134,9 @@ button{
     padding: 10px 40px;
     margin: 40px 0;
 }
+
+button:hover {
+	background-color: var(--color);
+	color:white;
+}
+
